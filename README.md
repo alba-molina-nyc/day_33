@@ -8,3 +8,21 @@ External System -> (send response) your program
 ## Api endpoint
 
 ## Api request
+
+## response codes from apis
+
+404 - does not exist
+
+1XX - hold on something happens
+
+2XX - success
+
+3XX - no permission
+
+4XX - error
+
+5XX - server screwed up
+
+## Requests API
+
+the most popular way for python devs to handle APIs
