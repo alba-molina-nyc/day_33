@@ -7,3 +7,8 @@ response.raise_for_status()
 
 data = response.json()
 print(data)
+
+latitude = data["iss_position"]["latitude"]
+longitude = data["iss_position"]["longitude"]
+iss_position = (latitude, longitude)
+print(iss_position)

@@ -26,3 +26,14 @@ External System -> (send response) your program
 ## Requests API
 
 the most popular way for python devs to handle APIs
+
+```python
+# get data from api 
+
+data = response.json()
+
+# ---------------------
+longitude = data["iss_position"]["longitude"]
+
+
+```
